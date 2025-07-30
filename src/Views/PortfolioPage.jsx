@@ -166,7 +166,7 @@ const PortfolioPage = () => {
       </div>
     );
   }
-
+                                 
   return (
     <div className="portfolio-container" id='portfolio-container'>
       
@@ -184,8 +184,7 @@ const PortfolioPage = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
- 
+ {/* Hero Section */}
 <div className="hero-section" 
   style={{
     backgroundImage: `
