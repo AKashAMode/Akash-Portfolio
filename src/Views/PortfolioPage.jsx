@@ -251,7 +251,7 @@ const PortfolioPage = () => {
                   Through my internships, I gained valuable experience collaborating with cross-functional teams using Git, Jira, and agile methodologies. I am known for my strong problem-solving abilities, adaptability, and eagerness to learn. My goal is to contribute my technical expertise to innovative projects, deliver impactful solutions, and grow into a valuable asset for the organization.
                 </p>
                 <p className="journey-motto">
-                  STRONGLY BELIEVE IN KARMA
+                  Build with honesty, and success will follow.
                 </p>
               </div>
               
@@ -509,7 +509,7 @@ const PortfolioPage = () => {
                         <Mail className="contact-icon" size={24} />
                         <div className="contact-item-content">
                           <p className="contact-label">EMAIL</p>
-                          <p className="contact-value">hello@imabhishek.online</p>
+                          <p className="contact-value">akashamode80@gmail.com</p>
                         </div>
                       </div>
                       
