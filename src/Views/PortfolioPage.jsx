@@ -531,16 +531,16 @@ const PortfolioPage = () => {
                     </div>
                     
                     <div className="social-links">
-                      <a href="#" className="social-link">
+                      <a href="https://github.com/AKashAMode" className="social-link">
                         <Github size={24} />
                       </a>
-                      <a href="#" className="social-link">
+                      <a href="https://www.linkedin.com/in/akashamode8/" className="social-link">
                         <Linkedin size={24} />
                       </a>
-                      <a href="#" className="social-link">
+                      <a href="https://x.com/" className="social-link">
                         <Twitter size={24} />
                       </a>
-                      <a href="#" className="social-link">
+                      <a href="https://www.instagram.com/" className="social-link">
                         <Instagram size={24} />
                       </a>
                     </div>

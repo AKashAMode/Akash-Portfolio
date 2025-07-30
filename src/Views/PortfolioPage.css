@@ -1,3 +1,12 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .hero-badge {
   display: inline-block;
   position: relative;
@@ -19,13 +28,13 @@
   left: 0; 
   width: 0;
   height: 100%;
-  background-color: #4a6bff; /* Your background color */
-  animation: slideRight 0.5s ease-in-out forwards; /* Animation name changed */
+  background-color: #4a6bff; 
+  animation: slideRight 0.5s ease-in-out forwards; 
   z-index: 1;
   border: 4px solid #cccc;
 }
 
-/* Keyframes for left-to-right slide */
+
 @keyframes slideRight {
   from {
     width: 0;
@@ -35,28 +44,13 @@
   }
 }
 
-/* Text color change after animation completes */
+
 @keyframes textColorChange {
   to {
-    color: #fff; /* White text after background appears */
+    color: #fff; 
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 
 @keyframes fadeInUp {
