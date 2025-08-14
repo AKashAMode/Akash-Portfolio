@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react'; 
-import { Github, Linkedin, Twitter, Instagram, Mail, MapPin,PhoneCall, Clock, Download, Send, ExternalLink, Code } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram, Mail, MapPin,PhoneCall, Download, Send, ExternalLink, Code } from 'lucide-react';
 import HTMLIcon from "../assets/html.png";
 import CSSIcon from "../assets/css-3.png";
 import JavaScriptIcon from "../assets/js.png";
@@ -14,6 +14,7 @@ import JavaDevCertificate from "../assets/java-developer.jpg";
 import './PortfolioPage.css';
 import EcoSwapProject from "../assets/Eco-swap-project.png";
 import FaceSearch from "../assets/face-search.png";
+import PortfolioImg from "../assets/portfolio-img.png";
 
 const PortfolioPage = () => {
   const [formData, setFormData] = useState({
@@ -42,7 +43,7 @@ const PortfolioPage = () => {
     console.log('Form submitted:', formData);
   };
 
-  // Initial loading effect
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
@@ -50,7 +51,7 @@ const PortfolioPage = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Intersection Observer for scroll animations
+
   useEffect(() => {
     observerRef.current = new IntersectionObserver(
       (entries) => {
@@ -66,7 +67,7 @@ const PortfolioPage = () => {
       }
     );
 
-    // Observe all animated elements
+
     const elements = document.querySelectorAll('[data-animate]');
     elements.forEach(el => {
       if (observerRef.current) {
@@ -81,7 +82,7 @@ const PortfolioPage = () => {
     };
   }, [isLoading]);
 
-  // Navbar scroll logic
+ 
 
   useEffect(() => {
   const handleScroll = () => {
@@ -93,9 +94,9 @@ const PortfolioPage = () => {
     }
     
     if (currentScrollY > lastScrollY) {
-      setShowNavbar(false); // scrolling down → hide
+      setShowNavbar(false); 
     } else {
-      setShowNavbar(true); // scrolling up → show
+      setShowNavbar(true); 
     }
     
     setLastScrollY(currentScrollY);
@@ -143,15 +144,15 @@ const PortfolioPage = () => {
       skills: ['HTML', 'CSS', 'JavaScript','Stripe']
     },
     {
-      title: 'CoinEcho',
-      description: 'Stay informed with real-time cryptocurrency updates, expert opinions, and in-depth analysis. CoinEcho brings the world of crypto to your fingertips.',
+      title: 'Personal Portfolio Website',
+      description: 'A modern and responsive personal portfolio website built to showcase my skills, projects, and experience. Designed with a clean UI, smooth navigation, and minimal aesthetics to create a professional first impression. Integrated iconography using Lucide React and implemented smooth scrolling for a better user experience.',
       bgGradient: 'green-blue',
-      subtitle: 'Explore the Cryptoeconomy',
-      tagline: 'Real-time crypto insights',
-      sourceUrl: '#',
-      liveUrl: '#',
-      image: EcoSwapProject,
-      skills: ['React', 'Spring Boot', 'MySQL']
+      subtitle: 'Personal Portfolio Website ',
+      tagline: 'A sleek and modern portfolio that speaks for my skills before I do.',
+      sourceUrl: 'https://github.com/AKashAMode/Akash-Portfolio',
+      liveUrl: 'https://akash-portfolio-smoky.vercel.app/',
+      image: PortfolioImg,
+      skills: ['React', 'CSS', 'Lucide React Icons']
     }
   ];
 
@@ -209,7 +210,8 @@ const PortfolioPage = () => {
           </p>
           <div className="hero-buttons">
             <button className="hero-btn">
-              Say Hi <Send size={20} />
+              
+              <a href="#contact-form">Say Hi <Send size={20} /></a>
             </button>
             <button className="hero-btn">
               Resume <Download size={20} />
@@ -262,7 +264,7 @@ const PortfolioPage = () => {
                     <div className="journey-avatar">
                       <span>👨‍💻</span>
                     </div>
-                    <p className="journey-image-text">Coding Journey Since 2021</p>
+                    
                   </div>
                 </div>
               </div>

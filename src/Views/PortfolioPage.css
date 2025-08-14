@@ -332,7 +332,16 @@
   align-items: center;
   gap: 8px;
   justify-content: center;
+  
 }
+
+.hero-btn a{
+  text-decoration: none;
+ color: inherit;
+}
+
+
+
 
 .hero-btn:hover {
   background: white;
@@ -340,7 +349,7 @@
   transform: scale(1.05);
 }
 
-/* Section Styles */
+
 .section-container {
   max-width: 1152px;
   margin: 0 auto;
