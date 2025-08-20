@@ -15,6 +15,7 @@ import './PortfolioPage.css';
 import EcoSwapProject from "../assets/Eco-swap-project.png";
 import FaceSearch from "../assets/face-search.png";
 import PortfolioImg from "../assets/portfolio-img.png";
+import AiInterview from "../assets/ai-interview.png";
 
 const PortfolioPage = () => {
   const [formData, setFormData] = useState({
@@ -153,7 +154,19 @@ const PortfolioPage = () => {
       liveUrl: 'https://akash-portfolio-smoky.vercel.app/',
       image: PortfolioImg,
       skills: ['React', 'CSS', 'Lucide React Icons']
-    }
+    },
+    {
+  title: 'AI Interview Platform',
+  description: 'An AI-powered interview platform where users can practice and evaluate their knowledge through real-time interviews. Built with ReactJS for the frontend and Spring Boot with MySQL for backend data management. Integrated AssemblyAI API for live voice transcription, enabling candidates to see their responses in real-time. Deployed using Render and Railway for scalability and reliability.',
+  bgGradient: 'purple-pink',
+  subtitle: 'AI Interview Practice Platform',
+  tagline: 'Practice. Perform. Perfect – Your AI-driven interview coach.',
+  sourceUrl: 'https://github.com/AKashAMode/Interview-platform-frontend',
+  liveUrl: 'https://interview-platform-frontend-henna.vercel.app/',
+  image: AiInterview,
+  skills: ['ReactJS', 'CSS', 'Spring Boot', 'MySQL', 'Render', 'Railway', 'AssemblyAI API']
+  }
+
   ];
 
   
