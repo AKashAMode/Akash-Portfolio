@@ -778,7 +778,9 @@
   transition: all 0.5s ease;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   width: 350px;
-  height: 470px;
+  height: 510px; /* Increased height to accommodate more skills */
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -790,6 +792,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .purple-pink {
@@ -803,7 +806,6 @@
 .green-blue {
   background: linear-gradient(135deg, #10b981, #3b82f6);
 }
-
 
 .project-image-container {
   position: relative;
@@ -837,11 +839,7 @@
   padding: 16px;
   background: rgba(0, 0, 0, 0.4);
   z-index: 2;
-}
-
-.project-header-content {
   text-align: center;
-  padding: 16px;
 }
 
 .project-subtitle {
@@ -860,12 +858,12 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 240px;
+  flex: 1;
+  min-height: 0;
 }
 
 .project-content {
-  flex: 1;
+  margin-bottom: 16px;
 }
 
 .project-title {
@@ -882,44 +880,44 @@
   line-height: 1.5;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3; /* Reduced to 3 lines to make room for skills */
   -webkit-box-orient: vertical;
 }
 
-
-.project-body {
-  display: flex;
-  flex-direction: column;
-  height: 240px;
-}
-
-.skill-badge{
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  padding: 5px;
-  margin: 4px;
-
-}
-
-.skills-list{
-  margin-top: 10px;
-}
-
-.project-content {
-  flex-grow: 1; 
-}
-
 .project-skills {
-  margin: 12px 0; 
+  margin-bottom: 20px;
 }
 
-.project-actions {
-  margin-top: auto; 
+.skills-heading {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.skill-badge {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #93c5fd;
+  white-space: nowrap;
+  font-weight: 500;
 }
 
 .project-actions {
   display: flex;
   gap: 12px;
+  margin-top: auto;
+  padding-top: 8px;
 }
 
 .project-btn {
