@@ -184,7 +184,7 @@ const PortfolioPage = () => {
   return (
     <div className="portfolio-container" id='portfolio-container'>
       
-      {/* Fixed Navbar */}
+
       <nav className={`fixed-navbar ${showNavbar ? 'navbar-visible' : 'navbar-hidden'}`}>
         <div className="navbar-bg">
           <div className="navbar-content">
@@ -219,7 +219,7 @@ const PortfolioPage = () => {
           </div>
           <p className="hero-description">
             Based in Maharashtra, India,<br />
-            Specialized in <span className="skill-tag">React</span> and <span className="skill-tag">Springboot</span>
+            focused on creating <span className="skill-tag">user-friendly</span> applications and solving <span className="skill-tag">real-world problems</span> through code.
           </p>
           <div className="hero-buttons">
             <button className="hero-btn">
@@ -270,7 +270,7 @@ const PortfolioPage = () => {
                 </p>
               </div>
               
-              {/* Right Side - Image */}
+            
               <div className="journey-image">
                 <div className="journey-image-container">
                   <div className="journey-image-content">
@@ -286,7 +286,7 @@ const PortfolioPage = () => {
         </div>
       </section>
 
-      {/* Career History Section */}
+    
       <section className="career-section">
         <div className="section-container">
           <h2 
@@ -310,15 +310,15 @@ const PortfolioPage = () => {
                   <span className="company-name">Dnextgen</span>
                   <span className="timeline-date">20-Jan-2025 - 20-Jun-2025</span>
                 </div>
-                <h3 className="timeline-position">Full Stack Java Developer Internship</h3>
+                <h3 className="timeline-position">Full Stack Developer Internship</h3>
               </div>
               <p className="timeline-company-full">Dnext generation Technology</p>
               <ul className="timeline-responsibilities">
-                <li>• Developed and maintained scalable backend modules using Java, Spring Boot, and Hibernate, improving overall system performance by 25%.</li>
+                <li>• Developed and maintained scalable backend modules using Node.js, Express.js improving overall system performance by 25%.</li>
                 <li>• Designed and integrated RESTful APIs, reducing response time and enhancing application efficiency by 30%.</li>
                 <li>• Built responsive front-end components with HTML, CSS, JavaScript, and React.js, ensuring a seamless user experience.</li>
                 <li>• Collaborated with cross-functional teams using Git, GitHub, and Jira to manage versions and streamline project workflows.</li>
-                <li>• Implemented clean code practices and database optimization in MySQL, ensuring reliable and efficient data handling.</li>
+                <li>• Implemented clean code practices and database optimization in MongoDB, ensuring reliable and efficient data handling.</li>
               </ul>
             </div>
 
