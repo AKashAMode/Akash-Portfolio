@@ -310,15 +310,16 @@ const PortfolioPage = () => {
                   <span className="company-name">Dnextgen</span>
                   <span className="timeline-date">20-Jan-2025 - 20-Jun-2025</span>
                 </div>
-                <h3 className="timeline-position">Full Stack Developer Internship</h3>
+                <h3 className="timeline-position">React Developer Internship</h3>
               </div>
               <p className="timeline-company-full">Dnext generation Technology</p>
               <ul className="timeline-responsibilities">
-                <li>• Developed and maintained scalable backend modules using Node.js, Express.js improving overall system performance by 25%.</li>
-                <li>• Designed and integrated RESTful APIs, reducing response time and enhancing application efficiency by 30%.</li>
-                <li>• Built responsive front-end components with HTML, CSS, JavaScript, and React.js, ensuring a seamless user experience.</li>
-                <li>• Collaborated with cross-functional teams using Git, GitHub, and Jira to manage versions and streamline project workflows.</li>
-                <li>• Implemented clean code practices and database optimization in MongoDB, ensuring reliable and efficient data handling.</li>
+                <li>• Built and maintained responsive user interfaces using React.js, HTML, CSS, and JavaScript to deliver seamless web experiences.</li>
+                 <li>• Integrated RESTful APIs into React components for dynamic data rendering and efficient state management.</li>
+                <li>• Collaborated with team members using Git and GitHub to manage code versions and contribute to project workflows.</li>
+                <li>• Applied clean coding practices and optimized front-end performance to improve usability across devices.</li>
+                 <li>• Assisted in debugging, testing, and enhancing UI features under the guidance of senior developers.</li>
+
               </ul>
             </div>
 
