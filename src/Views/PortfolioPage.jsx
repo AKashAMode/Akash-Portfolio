@@ -312,7 +312,7 @@ const PortfolioPage = () => {
                 </div>
                 <h3 className="timeline-position">Full Stack Developer Internship</h3>
               </div>
-              <p className="timeline-company-full">Dnext generation Technology</p>
+              <p className="timeline-company-full">Dnext generation Technology</p> 
               <ul className="timeline-responsibilities">
                 <li>• Built and maintained responsive user interfaces using React.js, HTML, CSS, and JavaScript.</li>
                <li>• Integrated RESTful APIs into React components and backend services using Spring Boot and Hibernate.</li>
