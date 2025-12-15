@@ -308,9 +308,9 @@ const PortfolioPage = () => {
               <div className="timeline-header">
                 <div className="timeline-company">
                   <span className="company-name">Dnextgen</span>
-                  <span className="timeline-date">20-Jan-2025 - 20-Jun-2025</span>
+                  <span className="timeline-date">20-may-2024 - 20-may-2025</span>
                 </div>
-                <h3 className="timeline-position">Full Stack Developer Internship</h3>
+                <h3 className="timeline-position">Full Stack Java Developer Internship</h3>
               </div>
               <p className="timeline-company-full">Dnext generation Technology</p> 
               <ul className="timeline-responsibilities">
