@@ -286,67 +286,6 @@ const PortfolioPage = () => {
         </div>
       </section>
 
-    
-      <section className="career-section">
-        <div className="section-container">
-          <h2 
-            data-animate 
-            id="career-title"
-            className={`section-title ${visibleElements.has('career-title') ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'}`}
-          >
-            Career History
-          </h2>
-          <div className="career-timeline">
-            
-            {/* Current Role */}
-            <div 
-              data-animate
-              id="current-role"
-              className={`timeline-item current-role ${visibleElements.has('current-role') ? 'animate-slide-in-right' : 'opacity-0 translate-x-10'}`}
-            >
-              <div className="timeline-dot current-dot"></div>
-              <div className="timeline-header">
-                <div className="timeline-company">
-                  <span className="company-name">Dnextgen</span>
-                  <span className="timeline-date">20-may-2024 - 20-may-2025</span>
-                </div>
-                <h3 className="timeline-position">Full Stack Java Developer Internship</h3>
-              </div>
-              <p className="timeline-company-full">Dnext generation Technology</p> 
-              <ul className="timeline-responsibilities">
-                <li>• Built and maintained responsive user interfaces using React.js, HTML, CSS, and JavaScript.</li>
-               <li>• Integrated RESTful APIs into React components and backend services using Spring Boot and Hibernate.</li>
-               <li>• Collaborated with team members using Git and GitHub for version control and workflow management.</li>
-               <li>• Applied clean coding practices and optimized full-stack performance across devices.</li>
-               <li>• Assisted in debugging, testing, and enhancing both front-end and back-end features under senior developer guidance.</li>
-              </ul>
-            </div>
-
-            {/* Previous Role */}
-            <div 
-              data-animate
-              id="previous-role"
-              className={`timeline-item previous-role ${visibleElements.has('previous-role') ? 'animate-slide-in-right' : 'opacity-0 translate-x-10'}`}
-            >
-              <div className="timeline-dot previous-dot"></div>
-              <div className="timeline-header">
-                <div className="timeline-company">
-                  <span className="company-name">Him Village(NGO)</span>
-                  <span className="timeline-date">Dec 2024 - Jan 2025</span>
-                </div>
-                <h3 className="timeline-position">Front End Developer Internship</h3>
-              </div>
-              <p className="timeline-company-full">Him Village E-Prahari (NGO)</p>
-              <ul className="timeline-responsibilities">
-                <li>• Designed and developed responsive web pages using HTML, CSS, and JavaScript, enhancing accessibility and user engagement.</li>
-                <li>• Implemented clean and sustainable UI designs to provide a smooth user experience across devices.</li>
-                <li>• Collaborated with the NGO team to improve digital outreach and support their community-focused initiatives.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Auto-sliding Skills Section */}
       <section className="skills-section">
         <div className="section-container">
