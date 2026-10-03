@@ -69,7 +69,7 @@ import SutraCut from "../assets/SutraCutProject/SutraCut.png";
     bgGradient: 'pink-orange',
     subtitle: 'Raksha Bandhan – Festive Web Experience',
     tagline: 'A modern interactive experience for Raksha Bandhan',
-    sourceUrl: '',
+    sourceUrl: 'https://github.com/AKashAMode/Raksha-Bandhan-website',
     liveUrl: '',
     image: RakshaBandhan,
     skills: [
@@ -91,7 +91,7 @@ import SutraCut from "../assets/SutraCutProject/SutraCut.png";
     bgGradient: 'blue-cyan',
     subtitle: 'Job Portal – React Web Application',
     tagline: 'A modern and responsive job search interface',
-    sourceUrl: '',
+    sourceUrl: 'https://github.com/AKashAMode/Job-Portal',
     liveUrl: '',
     image: JobPortal,
     skills: [
@@ -113,7 +113,7 @@ import SutraCut from "../assets/SutraCutProject/SutraCut.png";
     bgGradient: 'orange-red',
     subtitle: 'Sutra Cut – AI Video Auto-Editor',
     tagline: 'Transform raw videos into edited content with AI',
-    sourceUrl: '',
+    sourceUrl: 'https://github.com/AKashAMode/Sutra_Cut_App',
     liveUrl: '',
     image: SutraCut,
     skills: [
