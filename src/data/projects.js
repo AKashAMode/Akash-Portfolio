@@ -2,9 +2,11 @@ import EcoSwapProject from "../assets/Eco-swap-project.png";
 import FaceSearch from "../assets/face-search.png";
 import PortfolioImg from "../assets/portfolio-img.png";
 import AiInterview from "../assets/ai-interview.png";
-
-
-
+import TallyIntegration from "../assets/TallyIntegrationProject/TallyIntegration.png";
+import ReplyWiseProject from "../assets/ReplyWiseProject/ReplyWiseAI.png";
+import NeuralNook from "../assets/NeuralNookProject/NeuralNook.png";
+import RakshaBandhan from "../assets/RakshaBandhanWebsite/RakshaBandhanWebsite.png";
+import JobPortal from "../assets/JobPortalApp/JobPortalWeb.png";
 
  const projects = [
 
@@ -17,8 +19,7 @@ import AiInterview from "../assets/ai-interview.png";
     tagline: 'Turn messages into actionable tasks with AI',
     sourceUrl: 'https://github.com/AKashAMode/replywise-ai',
     liveUrl: '',
-    image: AiInterview,
-    // ReplyWiseProject
+    image: ReplyWiseProject,
     skills: [
       'Java 21',
       'Spring Boot',
@@ -43,7 +44,7 @@ import AiInterview from "../assets/ai-interview.png";
     tagline: 'A secure full-stack platform for modern blogging',
     sourceUrl: 'https://github.com/AKashAMode/NeuralNook',
     liveUrl: '',
-    image: AiInterview,
+    image: NeuralNook,
     skills: [
       'JavaScript',
       'React.js',
@@ -68,7 +69,7 @@ import AiInterview from "../assets/ai-interview.png";
     tagline: 'A modern interactive experience for Raksha Bandhan',
     sourceUrl: '',
     liveUrl: '',
-    image: AiInterview,
+    image: RakshaBandhan,
     skills: [
       'Next.js',
       'TypeScript',
@@ -90,7 +91,7 @@ import AiInterview from "../assets/ai-interview.png";
     tagline: 'A modern and responsive job search interface',
     sourceUrl: '',
     liveUrl: '',
-    image: AiInterview,
+    image: JobPortal,
     skills: [
       'JavaScript',
       'React.js',
@@ -137,7 +138,7 @@ import AiInterview from "../assets/ai-interview.png";
     tagline: 'Company-wise accounting data and reporting platform',
     sourceUrl: '',
     liveUrl: '',
-    image: AiInterview,
+    image: TallyIntegration,
     skills: [
       'Java 17',
       'Spring Boot 3.4.1',
