@@ -12,10 +12,7 @@ import TelwindCssIcon from "../assets/Tailwind-CSS.png";
 import FrontEndIntCertificate from "../assets/front-end-intern.jpg";
 import JavaDevCertificate from "../assets/java-developer.jpg";
 import './PortfolioPage.css';
-import EcoSwapProject from "../assets/Eco-swap-project.png";
-import FaceSearch from "../assets/face-search.png";
-import PortfolioImg from "../assets/portfolio-img.png";
-import AiInterview from "../assets/ai-interview.png";
+import projects from '../data/projects';
 
 const PortfolioPage = () => {
   const [formData, setFormData] = useState({
@@ -107,7 +104,6 @@ const PortfolioPage = () => {
   return () => window.removeEventListener('scroll', handleScroll);
 }, [lastScrollY]);
 
-
   
 
   const skills = [
@@ -121,55 +117,7 @@ const PortfolioPage = () => {
     { name: 'Tailwind', icon: TelwindCssIcon }
   ];
 
-  const projects = [
-    {
-      title: 'EcoSwap Market Place',
-      description: 'EcoSwap is a responsive online marketplace that promotes sustainable shopping by connecting buyers and sellers of pre-loved items. Built with HTML, CSS, and JavaScript, the platform makes it easy to trade second-hand products—from fashion and electronics to collectibles—at affordable prices. Designed to encourage eco-friendly practices, EcoSwap provides a seamless user experience where one person’s unused item becomes another’s valuable find.',
-      bgGradient: 'purple-pink',
-      subtitle: 'EcoSwap – A sustainable marketplace',
-      tagline: 'EcoSwap is a responsive online marketplace',
-      sourceUrl: 'https://github.com/AKashAMode/icp9.0-javascript-github-group-project-3',
-      liveUrl: 'https://quiet-muffin-a46fa4.netlify.app/',
-      image: EcoSwapProject,
-      skills: ['HTML', 'CSS', 'JavaScript']
-    },
-    {
-      title: 'FaceSearch AI ',
-      description: 'An AI-powered platform designed to let users search for their look-alikes worldwide. Currently featuring a sleek UI interface with an integrated Stripe payment gateway for subscription testing, including a fully functional subscription plan card.',
-      bgGradient: 'blue-purple',
-      subtitle: 'Discover Your Digital Twin',
-      tagline: 'Explore the world to find your look-alike ',
-      sourceUrl: 'https://github.com/AKashAMode/faceSearchAi-web',
-      liveUrl: 'https://sage-kringle-c3ed44.netlify.app/',
-      image: FaceSearch,
-      skills: ['HTML', 'CSS', 'JavaScript','Stripe']
-    },
-    {
-      title: 'Personal Portfolio Website',
-      description: 'A modern and responsive personal portfolio website built to showcase my skills, projects, and experience. Designed with a clean UI, smooth navigation, and minimal aesthetics to create a professional first impression. Integrated iconography using Lucide React and implemented smooth scrolling for a better user experience.',
-      bgGradient: 'green-blue',
-      subtitle: 'Personal Portfolio Website ',
-      tagline: 'A sleek and modern portfolio that speaks for my skills before I do.',
-      sourceUrl: 'https://github.com/AKashAMode/Akash-Portfolio',
-      liveUrl: 'https://akash-portfolio-smoky.vercel.app/',
-      image: PortfolioImg,
-      skills: ['React', 'CSS', 'Lucide React Icons']
-    },
-    {
-  title: 'AI Interview Platform',
-  description: 'An AI-powered interview platform where users can practice and evaluate their knowledge through real-time interviews. Built with ReactJS for the frontend and Spring Boot with MySQL for backend data management. Integrated AssemblyAI API for live voice transcription, enabling candidates to see their responses in real-time. Deployed using Render and Railway for scalability and reliability.',
-  bgGradient: 'purple-pink',
-  subtitle: 'AI Interview Practice Platform',
-  tagline: 'Practice. Perform. Perfect – Your AI-driven interview coach.',
-  sourceUrl: 'https://github.com/AKashAMode/Interview-platform-frontend',
-  liveUrl: 'https://interview-platform-frontend-henna.vercel.app/',
-  image: AiInterview,
-  skills: ['ReactJS', 'CSS', 'Spring Boot', 'MySQL', 'Render', 'Railway', 'AssemblyAI API']
-  }
-
-  ];
-
-  
+ 
   if (isLoading) {
     return (
       <div className="loading-screen">
@@ -313,36 +261,6 @@ const PortfolioPage = () => {
                   <p className="skill-name">{tech.name}</p>
                 </div>
               ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Certifications Section */}
-      <section className="certifications-section">
-        <div className="section-container">
-          <h2 
-            data-animate 
-            id="cert-title"
-            className={`section-title ${visibleElements.has('cert-title') ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'}`}
-          >
-            Certifications
-          </h2>
-          <div className="certifications-grid">
-            <div 
-              data-animate
-              id="cert-1"
-              className={`cert-card ${visibleElements.has('cert-1') ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'}`}
-            >
-              <img src={FrontEndIntCertificate} className='intern-certificate' alt="intern certificate" />
-            </div>
-            
-            <div 
-              data-animate
-              id="cert-2"
-              className={`cert-card ${visibleElements.has('cert-2') ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'}`}
-            >
-          <img src={JavaDevCertificate} className='intern-certificate' alt="intern certificate" />
             </div>
           </div>
         </div>
