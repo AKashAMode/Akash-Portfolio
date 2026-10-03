@@ -7,6 +7,8 @@ import ReplyWiseProject from "../assets/ReplyWiseProject/ReplyWiseAI.png";
 import NeuralNook from "../assets/NeuralNookProject/NeuralNook.png";
 import RakshaBandhan from "../assets/RakshaBandhanWebsite/RakshaBandhanWebsite.png";
 import JobPortal from "../assets/JobPortalApp/JobPortalWeb.png";
+import SutraCut from "../assets/SutraCutProject/SutraCut.png";
+
 
  const projects = [
 
@@ -113,7 +115,7 @@ import JobPortal from "../assets/JobPortalApp/JobPortalWeb.png";
     tagline: 'Transform raw videos into edited content with AI',
     sourceUrl: '',
     liveUrl: '',
-    image: AiInterview,
+    image: SutraCut,
     skills: [
       'Java',
       'Spring Boot',
@@ -141,18 +143,13 @@ import JobPortal from "../assets/JobPortalApp/JobPortalWeb.png";
     image: TallyIntegration,
     skills: [
       'Java 17',
-      'Spring Boot 3.4.1',
-      'Spring Data JPA',
-      'Spring Security',
+      'Spring Boot',
       'MySQL',
       'React.js',
-      'JavaScript',
-      'React Router',
-      'REST APIs',
-      'Apache POI',
       'Chart.js',
       'PDF Generation',
       'Excel/CSV',
+      'Tesseract OCR',
       'Multi-Tenant Architecture',
       'Git'
     ]

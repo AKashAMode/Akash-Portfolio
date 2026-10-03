@@ -9,8 +9,6 @@ import JavaIcon from "../assets/java.png";
 import SpringbootIcon from "../assets/spring-boot.png";
 import MysqlIcon from "../assets/mysql.png";
 import TelwindCssIcon from "../assets/Tailwind-CSS.png";
-import FrontEndIntCertificate from "../assets/front-end-intern.jpg";
-import JavaDevCertificate from "../assets/java-developer.jpg";
 import './PortfolioPage.css';
 import projects from '../data/projects';
 
@@ -208,7 +206,7 @@ const PortfolioPage = () => {
               
               <div className="journey-text">
                 <p className="journey-paragraph">
-                  I am an enthusiastic and result-driven Java Developer with a B.Tech in Information Technology from Nagpur University (2024), passionate about creating efficient and scalable software solutions. I have hands-on experience in Node.js, Express.js, and MongoDB, where I have developed backend systems and optimized RESTful APIs to improve performance and reliability. My front-end expertise in HTML, CSS, JavaScript, and React.js allows me to build engaging and responsive user interfaces that enhance user experience.
+                  I am an enthusiastic and result-driven Java Developer with a B.Tech in Information Technology from Nagpur University, passionate about creating efficient and scalable software solutions. I have hands-on experience in Node.js, Express.js, and MongoDB, where I have developed backend systems and optimized RESTful APIs to improve performance and reliability. My front-end expertise in HTML, CSS, JavaScript, and React.js allows me to build engaging and responsive user interfaces that enhance user experience.
                 </p>
                 <p className="journey-paragraph">
                   Through my internships, I gained valuable experience collaborating with cross-functional teams using Git, Jira. I am known for my strong problem-solving abilities, adaptability, and eagerness to learn. My goal is to contribute my technical expertise to innovative projects, deliver impactful solutions, and grow into a valuable asset for the organization.
