@@ -28,9 +28,7 @@ import SutraCut from "../assets/SutraCutProject/SutraCut.png";
       'React.js',
       'JavaScript',
       'Ollama',
-      'REST APIs',
       'Maven',
-      'Vite',
       'Axios',
       'HTML/CSS',
       'Git'
