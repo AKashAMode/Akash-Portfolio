@@ -158,10 +158,10 @@ const PortfolioPage = () => {
      <section id="hero" className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">
-            Hi, I'm Akash Amode, a Self Taught
+            Hi, I'm Akash Amode,
           </h1>
           <div className="hero-badge">
-         <span className="badge-text">Software Engineer</span>
+         <span className="badge-text">Full-Stack Java Developer</span>
           </div>
           <p className="hero-description">
             Based in Maharashtra, India,<br />
